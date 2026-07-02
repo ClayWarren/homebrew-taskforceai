@@ -15,5 +15,5 @@ done
 if [ "${#RUBY_FILES[@]}" -eq 0 ]; then
   bundle exec rubocop
 else
-  bundle exec rubocop "${RUBY_FILES[@]}"
+  bundle exec rubocop -- "${RUBY_FILES[@]}"
 fi
