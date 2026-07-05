@@ -2,18 +2,18 @@
 # frozen_string_literal: true
 
 cask 'taskforceai' do
-  version '0.5.4'
+  version '0.5.5'
 
   on_arm do
     url "https://taskforceai.chat/api/download/desktop/macos-arm64/#{version}",
         verified: 'taskforceai.chat/'
-    sha256 '4f11c69dcb077c041b9acf33e5c74e3c3d72112b3d8046aa5f08259e009b8b60'
+    sha256 'd8631ff9537cb13bf44aac23b928d05c1c9b8d1befeac0e363e96678a0111e44'
   end
 
   on_intel do
     url "https://taskforceai.chat/api/download/desktop/macos-x64/#{version}",
         verified: 'taskforceai.chat/'
-    sha256 'e86e054e394010468a25946cadaf0039283356634ed1f5cb435412bcd8fc6ff3'
+    sha256 'c6aadc8ec3cdb1e220b555bac89a3b7cf46283435dd067839dec356cb76286f9'
   end
 
   name 'TaskForceAI'
