@@ -4,28 +4,28 @@
 class TaskforceaiCli < Formula
   desc 'Command-line interface for TaskForceAI'
   homepage 'https://taskforceai.chat'
-  version "0.11.11"
+  version "0.11.12"
   license 'MIT'
 
   on_macos do
     on_arm do
-      url "https://github.com/ClayWarren/taskforceai-open/releases/download/v0.11.11/taskforceai-cli-darwin-arm64.tar.gz"
-      sha256 "6621481d4aa3aabe2d666cbf4f033f4394c91ba547e07c2860cf4654803b07a5"
+      url "https://github.com/ClayWarren/taskforceai-open/releases/download/v0.11.12/taskforceai-cli-darwin-arm64.tar.gz"
+      sha256 "cd1cd9bef5806bacdcabec4776f3d406fb2a410a3f25e582e5c65fc150b6bf07"
     end
     on_intel do
-      url "https://github.com/ClayWarren/taskforceai-open/releases/download/v0.11.11/taskforceai-cli-darwin-amd64.tar.gz"
-      sha256 "97c5dad96c6c4342f9c3989ae2809a35cd235082ff2fa51f42d312968aa48665"
+      url "https://github.com/ClayWarren/taskforceai-open/releases/download/v0.11.12/taskforceai-cli-darwin-amd64.tar.gz"
+      sha256 "d2d9dd0f8baac2ef8009bb1eaabb4be870557b8516f9752eba5abcaae5c1d279"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ClayWarren/taskforceai-open/releases/download/v0.11.11/taskforceai-cli-linux-arm64.tar.gz"
-      sha256 "a5a35745e0922328680761b64a0dfff36bce0d7a1d163b1d18c3e856e7da2ae2"
+      url "https://github.com/ClayWarren/taskforceai-open/releases/download/v0.11.12/taskforceai-cli-linux-arm64.tar.gz"
+      sha256 "9b409683c7a12411e979448c232912c10cce4daf34c60cb7255a5db4a1e31a7c"
     end
     on_intel do
-      url "https://github.com/ClayWarren/taskforceai-open/releases/download/v0.11.11/taskforceai-cli-linux-amd64.tar.gz"
-      sha256 "49e4ab3e5269a88f317c138a0ea6a3a151af6aa3a76fa3d038bc4c40d3d36552"
+      url "https://github.com/ClayWarren/taskforceai-open/releases/download/v0.11.12/taskforceai-cli-linux-amd64.tar.gz"
+      sha256 "ad1c906f5b32ce9ac0084859f655c37ac4d1d20eaab138daa5e2f60385f2b0e3"
     end
   end
 
